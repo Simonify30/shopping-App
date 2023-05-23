@@ -1,0 +1,71 @@
+.list{
+    list-style: none;
+
+}
+
+nav{
+    position: sticky;
+    margin-top: 10px;
+    background-color: grey;
+    padding: 15px;
+    top: 63px;
+}
+
+nav ul{
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+nav li{
+    color: #4b4b4b;
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+a:hover{
+
+    color: blue;
+}
+
+
+@media (max-width: 870px ){
+    .list{
+        font-size: 20px;
+    }
+    
+
+}
+
+@media (max-width: 700px ){
+    .list{
+        font-size: 17px;
+    }
+
+    
+    
+
+}
+
+@media (max-width: 470px ){
+    .list{
+        font-size: 15px;
+    }
+    
+
+}
+
+@media (max-width: 360px ){
+    .list{
+        font-size: 12px;
+    }
+    
+
+}
+

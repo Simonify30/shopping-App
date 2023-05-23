@@ -1,0 +1,51 @@
+.slider{
+    top: 5rem;
+}
+
+.container{
+    width: 300px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.container img{
+    height: 300px;
+    width: 100%;
+}
+
+@media (max-width: 900px ){
+
+    .container{
+        width: 300px;
+    }
+
+    .container img{
+        height: 200px;
+        width: 100%;
+
+    }
+    
+
+}
+
+@media (max-width: 700px ){
+
+    .container{
+        width: 200px;
+    }
+    
+
+}
+
+@media (max-width: 450px ){
+
+    .container{
+        width: 150px;
+    }
+    
+    .container img{
+        height: 150px;
+
+    }
+
+}

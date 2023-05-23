@@ -1,0 +1,79 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4rem;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    box-sizing: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+
+}
+
+.mainImg{
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header span{
+    margin-right: 20px;
+}
+
+@media (max-width: 870px ){
+
+    .header h1{
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 750px ){
+
+    .header h1{
+        font-size: 22px;
+    }
+
+    .header span{
+        margin-right: 10px;
+    }
+
+}
+
+@media (max-width: 750px ){
+
+    .header h1{
+        font-size: 20px;
+    }
+
+    
+
+}
+
+@media (max-width: 450px ){
+
+    .header h1{
+        font-size: 18px;
+    }
+
+    
+
+}
+
+@media (max-width: 320px ){
+
+    .header h1{
+        font-size: 15px;
+    }
+
+    
+
+}
+
